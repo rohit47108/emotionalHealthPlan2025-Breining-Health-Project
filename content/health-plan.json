@@ -1,0 +1,224 @@
+{
+  "//": "Edit these fields to personalize your emotional health plan project.",
+  "//studentName": "Change this to your name - it will appear in the hero section",
+  "//date": "Update this to your presentation date",
+  "//theme": "Customize colors and visual style - primary is main brand color, accent is for highlights",
+  "//images": "Replace image URLs with your own photos. Each image needs src, alt text, and caption",
+  "//interactiveFeatures": "Adjust breathing timer settings, journal prompts, and habit tracking options",
+
+  "studentName": "Alex Johnson",
+  "date": "March 15, 2024",
+
+  "theme": {
+    "mode": "system",
+    "primary": "#6366f1",
+    "secondary": "#8b5cf6",
+    "accent": "linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%)",
+    "glass": true,
+    "backgroundPattern": "subtle-grain"
+  },
+
+  "hero": {
+    "title": "Developing an Emotional Health Plan for a Better You",
+    "subtitle": "Presented by Alex Johnson",
+    "metaLine": "Date: March 15, 2024",
+    "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop",
+    "alt": "Serene mountain landscape at sunrise with misty valleys"
+  },
+
+  "sections": {
+    "physicalActivities": {
+      "title": "Physical Activities",
+      "subtitle": "Importance of Physical Activities",
+      "content": [
+        "Engaging in regular physical activity can boost your mood and reduce anxiety.",
+        "Aim for at least 30 minutes of exercise most days of the week.",
+        "Activities can include walking, running, swimming, dancing, or playing sports.",
+        "Consider joining a sports team or a fitness class to stay motivated and have fun."
+      ],
+      "examples": {
+        "title": "Examples of Physical Activities",
+        "items": [
+          "Aerobic exercises: jogging, cycling",
+          "Strength training: bodyweight exercises, weight lifting",
+          "Mind-body exercises: yoga, tai chi"
+        ]
+      },
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=800&h=600&fit=crop",
+          "alt": "Person jogging at sunrise on a peaceful trail",
+          "caption": "Aerobic: Morning Jogging"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1517963879433-6ad2b056d0d7?w=800&h=600&fit=crop",
+          "alt": "Cyclist riding on scenic mountain road",
+          "caption": "Aerobic: Cycling"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop",
+          "alt": "Person in peaceful yoga pose outdoors",
+          "caption": "Mind-body: Yoga"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop",
+          "alt": "Person doing strength training with weights",
+          "caption": "Strength: Weight Training"
+        }
+      ],
+      "habitTracker": {
+        "activities": ["Cardio", "Strength", "Yoga", "Sports", "Walking", "Dancing", "Swimming"]
+      }
+    },
+
+    "mentalStrategies": {
+      "title": "Mental Strategies",
+      "subtitle": "Mental Strategies for Emotional Health",
+      "content": [
+        "Practice mindfulness and meditation to stay present and reduce stress.",
+        "Journaling your thoughts and feelings can help you process emotions.",
+        "Set realistic goals and celebrate your achievements, no matter how small."
+      ],
+      "techniques": {
+        "title": "Techniques to Try",
+        "items": [
+          "Deep breathing exercises: Inhale deeply for 4 seconds, hold for 4 seconds, exhale for 4 seconds.",
+          "Positive affirmations: Write down and repeat phrases that encourage self-confidence.",
+          "Visualization: Picture a peaceful place or a successful moment in your life."
+        ]
+      },
+      "breathing": {
+        "inhale": 4,
+        "hold1": 4,
+        "exhale": 4,
+        "hold2": 4,
+        "instructions": "Follow the circle: breathe in, hold, breathe out, hold"
+      },
+      "journalPrompts": [
+        "What went well today?",
+        "What challenged me and how did I handle it?",
+        "One small win I can celebrate.",
+        "What am I grateful for right now?",
+        "How am I feeling emotionally?"
+      ],
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=600&fit=crop",
+          "alt": "Person meditating peacefully in nature",
+          "caption": "Mindfulness & Meditation"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1517976487492-5769e1b293c1?w=800&h=600&fit=crop",
+          "alt": "Open journal with pen on wooden desk",
+          "caption": "Journaling for Clarity"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+          "alt": "Serene lake surrounded by mountains",
+          "caption": "Visualization: Peaceful Place"
+        }
+      ]
+    },
+
+    "socialSupport": {
+      "title": "Social Support",
+      "subtitle": "Role of Social Support",
+      "content": [
+        "Surround yourself with friends and family who uplift you.",
+        "Share your feelings with trusted individuals to lighten emotional burdens.",
+        "Join clubs or groups that interest you to meet new people and build connections."
+      ],
+      "ways": {
+        "title": "Ways to Build Social Support",
+        "items": [
+          "Schedule regular hangouts or calls with friends.",
+          "Volunteer for community service to meet others and contribute positively.",
+          "Seek professional help if needed, such as talking to a school counselor."
+        ]
+      },
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=600&fit=crop",
+          "alt": "Group of friends laughing together outdoors",
+          "caption": "Friends Who Uplift"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop",
+          "alt": "Volunteers working together at community event",
+          "caption": "Volunteer & Connect"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=600&fit=crop",
+          "alt": "Counselor's office with comfortable seating",
+          "caption": "Professional Support"
+        }
+      ],
+      "connectionPlanner": {
+        "defaultContacts": ["Close Friend", "Family Member", "Mentor/Counselor"],
+        "reminderOptions": ["Weekly check-in", "Monthly hangout", "As needed support"]
+      }
+    },
+
+    "healthyLifestyle": {
+      "title": "Healthy Lifestyle Choices",
+      "subtitle": "Healthy Lifestyle Choices for Emotional Well-being",
+      "content": [
+        "Eat a balanced diet rich in fruits, vegetables, whole grains, and proteins.",
+        "Ensure you get enough sleep (7-9 hours) to recharge your body and mind.",
+        "Limit screen time and avoid excessive social media use to reduce stress."
+      ],
+      "tips": {
+        "title": "Tips for Healthy Living",
+        "items": [
+          "Plan meals ahead to ensure you eat nutritious foods.",
+          "Establish a bedtime routine to improve sleep quality.",
+          "Engage in hobbies and activities that bring you joy and relaxation."
+        ]
+      },
+      "images": [
+        {
+          "src": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&h=600&fit=crop",
+          "alt": "Colorful balanced meal with vegetables and grains",
+          "caption": "Eat the Rainbow"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&h=600&fit=crop",
+          "alt": "Peaceful bedroom setup for good sleep",
+          "caption": "7-9 Hours of Sleep"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=600&fit=crop",
+          "alt": "Person painting as a relaxing hobby",
+          "caption": "Joyful Hobbies"
+        }
+      ],
+      "routineBuilder": {
+        "categories": ["Meal Planning", "Sleep Routine", "Hobby Time", "Screen Time Limits", "Self-Care"],
+        "defaultRoutines": [
+          "Plan tomorrow's meals",
+          "Set consistent bedtime",
+          "30 min hobby/relaxation",
+          "Digital sunset at 9pm",
+          "Morning self-care ritual"
+        ]
+      }
+    }
+  },
+
+  "closing": {
+    "reminder": "Remember: Developing an emotional health plan takes time and commitment. Prioritize your emotional well-being and make small, consistent changes for a healthier, happier you.",
+    "cta": "Download My Plan",
+    "attribution": "Images courtesy of Unsplash photographers"
+  },
+
+  "navigation": {
+    "sections": [
+      { "id": "hero", "label": "Title", "icon": "home" },
+      { "id": "physical", "label": "Physical Activities", "icon": "activity" },
+      { "id": "mental", "label": "Mental Strategies", "icon": "brain" },
+      { "id": "social", "label": "Social Support", "icon": "users" },
+      { "id": "lifestyle", "label": "Healthy Lifestyle", "icon": "heart" },
+      { "id": "summary", "label": "Summary", "icon": "check-circle" }
+    ]
+  }
+}
