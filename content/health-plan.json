@@ -1,11 +1,4 @@
 {
-  "//": "Edit these fields to personalize your emotional health plan project.",
-  "//studentName": "Change this to your name - it will appear in the hero section",
-  "//date": "Update this to your presentation date",
-  "//theme": "Customize colors and visual style - primary is main brand color, accent is for highlights",
-  "//images": "Replace image URLs with your own photos. Each image needs src, alt text, and caption",
-  "//interactiveFeatures": "Adjust breathing timer settings, journal prompts, and habit tracking options",
-
   "studentName": "Rohit Singh",
   "date": "September 21, 2025",
 
@@ -15,35 +8,134 @@
     "secondary": "#8b5cf6",
     "accent": "linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%)",
     "glass": true,
-    "backgroundPattern": "subtle-grain"
+    "backgroundPattern": "subtle-grain",
+    "fontScale": 1.0,
+    "highContrast": false
+  },
+
+  "interactiveFeatures": {
+    "breathingTimer": { "inhale": 4, "hold1": 4, "exhale": 4, "hold2": 4, "cycles": 4 },
+    "journal": {
+      "dailyPrompts": [
+        "What went well today?",
+        "What challenged me and how did I handle it?",
+        "One small win I can celebrate.",
+        "What am I grateful for right now?",
+        "How am I feeling emotionally?"
+      ],
+      "weeklyReflection": [
+        "Patterns I noticed in mood/energy",
+        "What habits helped the most?",
+        "What will I adjust next week?"
+      ],
+      "autosave": true
+    },
+    "habitTracking": {
+      "weekStartsOn": "Monday",
+      "reminders": ["08:00", "20:30"],
+      "streaks": true
+    },
+    "accessibility": {
+      "keyboardNavigation": true,
+      "reducedMotion": true,
+      "altTextRequired": true
+    }
   },
 
   "hero": {
     "title": "Emotional Health Plan",
     "subtitle": "Presented by Rohit Singh",
-    "metaLine": "Date: March 15, 2024",
+    "metaLine": "Date: September 21, 2025",
     "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop",
-    "alt": "Serene mountain landscape at sunrise with misty valleys"
+    "alt": "Serene mountain landscape at sunrise with misty valleys",
+    "ctaPrimary": { "label": "Start Plan", "targetId": "physicalActivities" },
+    "ctaSecondary": { "label": "Jump to Summary", "targetId": "summary" }
+  },
+
+  "assessment": {
+    "objectives": [
+      "Demonstrate understanding of emotional health pillars (physical, mental, social, lifestyle).",
+      "Implement and track at least three healthy habits over two weeks.",
+      "Reflect on outcomes using qualitative and quantitative evidence."
+    ],
+    "smartGoals": [
+      {
+        "goal": "Do moderate cardio for 30 minutes, 4 days per week for 3 weeks.",
+        "metric": "Minutes completed",
+        "target": 360,
+        "deadline": "October 12, 2025",
+        "evidence": ["Habit tracker export", "Heart rate or RPE notes"]
+      },
+      {
+        "goal": "Complete 1 guided breathing session daily for 14 days.",
+        "metric": "Sessions completed",
+        "target": 14,
+        "deadline": "October 5, 2025",
+        "evidence": ["App timer logs", "Journal mood check-in pre/post"]
+      },
+      {
+        "goal": "Journal 5 days per week for 3 weeks.",
+        "metric": "Entries per week",
+        "target": 15,
+        "deadline": "October 12, 2025",
+        "evidence": ["Journal word count", "Reflection summary"]
+      }
+    ],
+    "checkpoints": [
+      { "label": "Week 1 Check-in", "date": "September 28, 2025" },
+      { "label": "Week 2 Check-in", "date": "October 5, 2025" },
+      { "label": "Final Review", "date": "October 12, 2025" }
+    ],
+    "riskSignals": [
+      "Persistent low mood for 2+ weeks",
+      "Sleep disruption most nights",
+      "Loss of interest in usual activities"
+    ],
+    "copingPlan": [
+      "Use 4-4-4-4 breathing for 3 cycles",
+      "10-minute walk or stretch",
+      "Text a check-in contact"
+    ],
+    "crisisPlan": {
+      "instructions": "If you feel unsafe, contact a trusted adult and local emergency services immediately.",
+      "contacts": [
+        { "label": "Trusted Adult", "value": "Add name & number" },
+        { "label": "School Counselor", "value": "Add name & email" },
+        { "label": "Local Emergency", "value": "Dial your local emergency number" }
+      ]
+    },
+    "artifacts": [
+      "Habit tracker summary",
+      "Breathing timer logs",
+      "Journal reflections (selected entries)",
+      "Before/after self-rating of stress, mood, sleep"
+    ],
+    "rubricMapping": {
+      "ContentAccuracy": "Objectives covered in each section with credible tips and examples.",
+      "ApplicationOfSkills": "SMART goals, trackers, and evidence artifacts included.",
+      "ReflectionDepth": "Weekly and final reflections tied to data trends.",
+      "DesignAccessibility": "Readable, keyboard navigable, alt text present, reduced motion option.",
+      "Professionalism": "Consistent dates, labels, and clear navigation."
+    }
   },
 
   "sections": {
     "physicalActivities": {
       "title": "Physical Activities",
-      "subtitle": "Importance of Physical Activities",
+      "subtitle": "Movement to regulate stress and mood",
       "content": [
-        "Engaging in regular physical activity can boost your mood and reduce anxiety.",
-        "Aim for at least 30 minutes of exercise most days of the week.",
-        "Activities can include walking, running, swimming, dancing, or playing sports.",
-        "Consider joining a sports team or a fitness class to stay motivated and have fun."
+        "Regular physical activity boosts mood and reduces anxiety.",
+        "Target: 150–300 minutes of moderate activity weekly or 75–150 minutes vigorous.",
+        "Mix cardio, strength, and mind–body sessions for balance."
       ],
       "examples": {
         "title": "Examples of Physical Activities",
         "items": [
-          "Aerobic exercises: jogging, cycling",
-          "Strength training: bodyweight exercises, weight lifting",
-          "Mind-body exercises: yoga, tai chi"
+          "Aerobic: brisk walking, jogging, cycling, swimming",
+          "Strength: bodyweight circuits, resistance bands, weights",
+          "Mind–Body: yoga, tai chi, mobility flow"
         ]
-      },
+      ],
       "images": [
         {
           "src": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?w=800&h=600&fit=crop",
@@ -58,7 +150,7 @@
         {
           "src": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop",
           "alt": "Person in peaceful yoga pose outdoors",
-          "caption": "Mind-body: Yoga"
+          "caption": "Mind–Body: Yoga"
         },
         {
           "src": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop",
@@ -67,26 +159,27 @@
         }
       ],
       "habitTracker": {
-        "activities": ["Cardio", "Strength", "Yoga", "Sports", "Walking", "Dancing", "Swimming"]
+        "activities": ["Cardio", "Strength", "Yoga", "Sports", "Walking", "Dancing", "Swimming"],
+        "weeklyTarget": { "Cardio": 120, "Strength": 2, "Yoga": 60 }
       }
     },
 
     "mentalStrategies": {
       "title": "Mental Strategies",
-      "subtitle": "Mental Strategies for Emotional Health",
+      "subtitle": "Train attention, thoughts, and emotions",
       "content": [
-        "Practice mindfulness and meditation to stay present and reduce stress.",
-        "Journaling your thoughts and feelings can help you process emotions.",
-        "Set realistic goals and celebrate your achievements, no matter how small."
+        "Mindfulness and meditation help reduce stress and reactivity.",
+        "Journaling clarifies thoughts and tracks patterns.",
+        "Set realistic goals and celebrate small wins."
       ],
       "techniques": {
         "title": "Techniques to Try",
         "items": [
-          "Deep breathing exercises: Inhale deeply for 4 seconds, hold for 4 seconds, exhale for 4 seconds.",
-          "Positive affirmations: Write down and repeat phrases that encourage self-confidence.",
-          "Visualization: Picture a peaceful place or a successful moment in your life."
+          "Box breathing 4-4-4-4 (can adjust in settings).",
+          "Positive affirmations tied to values.",
+          "Visualization of calm or success moments."
         ]
-      },
+      ],
       "breathing": {
         "inhale": 4,
         "hold1": 4,
@@ -113,29 +206,29 @@
           "caption": "Journaling for Clarity"
         },
         {
-          "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-          "alt": "Serene lake surrounded by mountains",
-          "caption": "Visualization: Peaceful Place"
+          "src": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=800&h=600&fit=crop",
+          "alt": "Calm ocean horizon used for visualization practice",
+          "caption": "Visualization: Calm Horizon"
         }
       ]
     },
 
     "socialSupport": {
       "title": "Social Support",
-      "subtitle": "Role of Social Support",
+      "subtitle": "Connection as protective factor",
       "content": [
-        "Surround yourself with friends and family who uplift you.",
-        "Share your feelings with trusted individuals to lighten emotional burdens.",
-        "Join clubs or groups that interest you to meet new people and build connections."
+        "Supportive relationships buffer stress and improve resilience.",
+        "Share feelings with trusted people to lighten emotional load.",
+        "Join interest groups to expand your network."
       ],
       "ways": {
         "title": "Ways to Build Social Support",
         "items": [
           "Schedule regular hangouts or calls with friends.",
-          "Volunteer for community service to meet others and contribute positively.",
-          "Seek professional help if needed, such as talking to a school counselor."
+          "Volunteer to meet others and contribute positively.",
+          "Seek professional help when needed (e.g., school counselor)."
         ]
-      },
+      ],
       "images": [
         {
           "src": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=600&fit=crop",
@@ -161,20 +254,20 @@
 
     "healthyLifestyle": {
       "title": "Healthy Lifestyle Choices",
-      "subtitle": "Healthy Lifestyle Choices for Emotional Well-being",
+      "subtitle": "Daily inputs that shape wellbeing",
       "content": [
-        "Eat a balanced diet rich in fruits, vegetables, whole grains, and proteins.",
-        "Ensure you get enough sleep (7-9 hours) to recharge your body and mind.",
-        "Limit screen time and avoid excessive social media use to reduce stress."
+        "Eat balanced meals with fruits, vegetables, whole grains, and proteins.",
+        "Aim for 7–9 hours of sleep to recharge body and mind.",
+        "Limit screen time and set digital boundaries."
       ],
       "tips": {
         "title": "Tips for Healthy Living",
         "items": [
-          "Plan meals ahead to ensure you eat nutritious foods.",
-          "Establish a bedtime routine to improve sleep quality.",
-          "Engage in hobbies and activities that bring you joy and relaxation."
+          "Plan meals ahead and hydrate consistently.",
+          "Establish a bedtime routine and keep a consistent wake time.",
+          "Protect time for hobbies and recovery."
         ]
-      },
+      ],
       "images": [
         {
           "src": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&h=600&fit=crop",
@@ -184,7 +277,7 @@
         {
           "src": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&h=600&fit=crop",
           "alt": "Peaceful bedroom setup for good sleep",
-          "caption": "7-9 Hours of Sleep"
+          "caption": "7–9 Hours of Sleep"
         },
         {
           "src": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=600&fit=crop",
@@ -214,11 +307,18 @@
   "navigation": {
     "sections": [
       { "id": "hero", "label": "Title", "icon": "home" },
-      { "id": "physical", "label": "Physical Activities", "icon": "activity" },
-      { "id": "mental", "label": "Mental Strategies", "icon": "brain" },
-      { "id": "social", "label": "Social Support", "icon": "users" },
-      { "id": "lifestyle", "label": "Healthy Lifestyle", "icon": "heart" },
+      { "id": "physicalActivities", "label": "Physical Activities", "icon": "activity" },
+      { "id": "mentalStrategies", "label": "Mental Strategies", "icon": "brain" },
+      { "id": "socialSupport", "label": "Social Support", "icon": "users" },
+      { "id": "healthyLifestyle", "label": "Healthy Lifestyle", "icon": "heart" },
       { "id": "summary", "label": "Summary", "icon": "check-circle" }
     ]
+  },
+
+  "summary": {
+    "metrics": ["Minutes active", "Breathing sessions", "Journal entries", "Sleep hours"],
+    "selfRatings": ["Mood", "Stress", "Energy", "Focus"],
+    "exportOptions": ["PDF", "CSV"],
+    "notes": "Use this summary to evaluate progress against SMART goals and prepare your final reflection."
   }
 }
