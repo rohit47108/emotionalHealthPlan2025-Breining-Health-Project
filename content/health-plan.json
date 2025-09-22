@@ -6,8 +6,8 @@
   "//images": "Replace image URLs with your own photos. Each image needs src, alt text, and caption",
   "//interactiveFeatures": "Adjust breathing timer settings, journal prompts, and habit tracking options",
 
-  "studentName": "Alex Johnson",
-  "date": "March 15, 2024",
+  "studentName": "Rohit Singh",
+  "date": "September 21, 2025",
 
   "theme": {
     "mode": "system",
@@ -19,8 +19,8 @@
   },
 
   "hero": {
-    "title": "Developing an Emotional Health Plan for a Better You",
-    "subtitle": "Presented by Alex Johnson",
+    "title": "Emotional Health Plan",
+    "subtitle": "Presented by Rohit Singh",
     "metaLine": "Date: March 15, 2024",
     "bgImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop",
     "alt": "Serene mountain landscape at sunrise with misty valleys"
